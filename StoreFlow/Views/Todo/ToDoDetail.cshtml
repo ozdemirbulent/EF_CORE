@@ -1,0 +1,16 @@
+﻿@model Todo
+@{
+    ViewData["Title"] = "ToDoDetail";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+<div class="card shadow-lg p-4">
+    <h3 class="text-primary fw-bold">Mesaj Detayı</h3>
+    <hr />
+    <p><strong>Açıklama:</strong> @Model.Description</p>
+    <p><strong>Öncelik:</strong> @Model.Priority</p>
+    <a href="/Todo/TodoChunk/" class="btn btn-outline-secondary mt-3">
+        <i class="fas fa-arrow-left"></i> Listeye Dön
+    </a>
+</div>
+
+

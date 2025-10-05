@@ -1,0 +1,95 @@
+﻿@model List<ToDoStatusChartViewModel>
+@using Newtonsoft.Json
+
+@{
+    var statusLabels = Model.Select(x => x.status).ToList();
+    var statusCounts = Model.Select(x => x.count).ToList();
+}
+
+<div class="col-md-4 grid-margin stretch-card">
+    <div class="card shadow-lg border-0 rounded-4 d-flex flex-column">
+        <div class="card-body flex-grow-1">
+            <h4 class="card-title text-center mb-4">
+                <i class="fas fa-tasks me-2"></i> Yapılacaklar - Durum Dağılımı
+            </h4>
+            <canvas id="todo-status-chart" width="600" height="600"></canvas>
+        </div>
+
+        <div class="card-footer bg-transparent border-0 d-flex justify-content-center pb-3">
+            <a class="todo-btn" href="/ToDo/ToDoAggreate/">
+                <i class="fas fa-plus"></i> Todo
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script>
+    window.addEventListener('DOMContentLoaded', () => {
+        const labels = @Html.Raw(JsonConvert.SerializeObject(statusLabels));
+        const counts = @Html.Raw(JsonConvert.SerializeObject(statusCounts));
+
+        const ctx = document.getElementById('todo-status-chart').getContext('2d');
+        new Chart(ctx, {
+            type: 'pie',
+            data: {
+                labels: labels,
+                datasets: [{
+                    label: 'Duruma Göre Yapılacaklar',
+                    data: counts,
+                    backgroundColor: [
+                        'rgba(255, 99, 132, 0.6)',
+                        'rgba(54, 162, 235, 0.6)',
+                        'rgba(255, 206, 86, 0.6)',
+                        'rgba(75, 192, 192, 0.6)',
+                        'rgba(153, 102, 255, 0.6)'
+                    ],
+                    borderColor: '#fff',
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'bottom'
+                    }
+                }
+            }
+        });
+    });
+</script>
+
+<style>
+    .todo-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        background: linear-gradient(135deg, #dc3545, #ff5b6a);
+        color: #fff;
+        font-weight: 600;
+        border-radius: 10px;
+        padding: 10px 24px;
+        text-decoration: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 3px 8px rgba(220, 53, 69, 0.4);
+        width: 100%;
+    }
+
+        .todo-btn:hover {
+            background: linear-gradient(135deg, #bb2d3b, #ff445a);
+            box-shadow: 0 6px 15px rgba(220, 53, 69, 0.6);
+            transform: translateY(-2px);
+            color: #fff;
+        }
+
+        .todo-btn:active {
+            transform: scale(0.96);
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3) inset;
+        }
+
+        .todo-btn i {
+            font-size: 1.1rem;
+        }
+</style>

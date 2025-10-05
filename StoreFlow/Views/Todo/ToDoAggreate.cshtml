@@ -1,0 +1,19 @@
+﻿@{
+    ViewData["Title"] = "ToDoAggreate";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <br />
+ <h3>Aggregate Metodu  Kullanımı </h3>
+    
+    <div class="col-md-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <ul class="solid-bullet-list">
+                    @Html.Raw(ViewBag.result)
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>

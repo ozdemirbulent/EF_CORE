@@ -1,0 +1,119 @@
+﻿@model List<Message>
+<li class="nav-item dropdown">
+    <a class="nav-link count-indicator dropdown-toggle" id="messageDropdown" href="#" data-toggle="dropdown" aria-expanded="false">
+        <i class="fas fa-envelope mx-0"></i>
+        <span class="count">@ViewBag.messagesCount</span>
+    </a>
+    <div class="dropdown-menu dropdown-menu-right navbar-dropdown preview-list" aria-labelledby="messageDropdown">
+        <div class="dropdown-item">
+            <p class="mb-0 font-weight-normal float-left p">
+                Toplam @ViewBag.messagesCount okunmamış mesajınız var.
+            </p>
+            <a class="dropdown-item preview-item" href="/Message/MessageList/">
+                <span class="badge badge-info badge-pill float-right">Tümünü Gör</span>
+            </a>
+        </div>
+        <div class="dropdown-divider"></div>
+        @foreach (var item in Model)
+        {
+            
+                var fark = DateTime.Now - item.Datetime;
+                string zaman = "";
+                if (fark.TotalDays >= 1)
+                {
+                    zaman = $"{(int)fark.TotalDays} gün önce";
+                }
+                else if (fark.TotalHours >= 1)
+                {
+                    zaman = $"{(int)fark.TotalHours} saat önce";
+                }
+                else if (fark.TotalMinutes >= 1)
+                {
+                    zaman = $"{(int)fark.TotalMinutes} dakika önce";
+                }
+                else
+                {
+                    zaman = "Az önce";
+                }
+            
+
+            <a class="dropdown-item preview-item">
+                <div class="preview-thumbnail">
+                    <img src="@item.SenderImageUrl" alt="image" class="profile-pic">
+                </div>
+                <div class="preview-item-content flex-grow">
+                    <h6 class="preview-subject ellipsis font-weight-medium">
+                        @item.SenderNameSurname
+                        <br />
+                        <span class="float-right font-weight-light small-text">@zaman</span>
+                    </h6>
+                    <p class="font-weight-light small-text message-body details">
+                        @item.MessageDetails
+                    </p>
+                </div>
+            </a>
+            <div class="dropdown-divider"></div>
+        }
+
+        <style>
+            .badge {
+                margin: 5px;
+                border-radius: 20px;
+                color: #000;
+                background-color: ghostwhite;
+                transition: background-color 0.3s, color 0.3s, transform 0.3s;
+                text-align: center;
+                justify-content: center;
+            }
+
+            .badge:hover {
+                transform: scale(1.05);
+                background-color: aquamarine;
+                padding: 10px;
+            }
+
+            .p {
+                font-family: 'Times New Roman', Times, serif;
+                font-size: 20px;
+                font-weight: bolder;
+                color: black;
+                transition: all 0.7s;
+            }
+
+            .p:hover {
+                transform: scale(1.05);
+                text-decoration: underline;
+                font-size: 20px;
+            }
+
+            .ellipsis {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                font-weight: bolder;
+                font-size: 20px;
+                transition: ease all 0.7s;
+            }
+
+            .ellipsis:hover {
+                color: darkblue;
+                transform: scale(1.25);
+                text-decoration: underline;
+            }
+
+            .details {
+                font-size: 15px;
+            }
+
+            .details.active {
+                font-weight: bolder;
+                font-size: 20px;
+                transition: ease all 0.7s;
+            }
+
+            .preview-thumbnail:hover {
+                transform: scale(1.25);
+                padding: 10px;
+                cursor:pointer;
+            }
+        </style>
+    </div>
+</li>

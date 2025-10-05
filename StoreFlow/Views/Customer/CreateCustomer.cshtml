@@ -1,0 +1,45 @@
+﻿@model Customer
+@{
+    ViewData["Title"] = "CreateCustomer";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Yeni Müşteri Girişi</h4>
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <div class="alert alert-danger">
+                        @TempData["ErrorMessage"]
+                    </div>
+                }
+
+                <form class="forms-sample" method="post">
+                    <div class="form-group">
+                        <label for="exampleInputName1">Müşteri Adı</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Müşteri Adını Yazınız." asp-for="CustomerName">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Müşteri Soyadı</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Müşteri Soyadını Yazınız." asp-for="CustomerSurname">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Müşteri Şehri</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Müşteri Şehrini Yazınız." asp-for="CustomerCity">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Müşteri İlçesi</label>
+                        <input type="text" class="form-control" id="exampleInputName1" placeholder="Müşteri Soyadını Yazınız." asp-for="CustomerDistrict">
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">
+                         Ekle
+                    </button>
+                    <a href="/Customer/CustomerList/" class="btn btn-dark">Geri Dön</a>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</div>
+

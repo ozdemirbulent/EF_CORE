@@ -1,0 +1,100 @@
+﻿@{
+    ViewData["Title"] = "ProductCount";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card shadow-lg border-0 rounded-3">
+            <div class="card-body">
+                <h3 class="card-title text-center mb-5">Entity Framework Metot Kullanımları</h3>
+
+                <div class="row g-2">
+                    <div class="col-md-4">
+                        <div class="card bg-primary text-white shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Toplam Ürün Sayısı</h5>
+                                <p class="card-text fs-2 fw-bold">@ViewBag.value</p>
+                            </div>
+                        </div>W
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-info text-white shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">En Son Ürün</h5>
+                                <p class="card-text fs-4">@ViewBag.v</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4">
+                        <div class="card bg-warning text-white shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">İlk Ürün</h5>
+                                <p class="card-text fs-4">@ViewBag.f</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-dark text-white shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">İlk Ürün Fiyatı</h5>
+                                <p class="card-text fs-4">@ViewBag.c TL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-dark text-white shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Son Ürün Fiyatı</h5>
+                                <p class="card-text fs-4">@ViewBag.l TL</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-dark text-white shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">İlk Ürün Stok</h5>
+                                <p class="card-text fs-4">@ViewBag.fs</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-3">
+                        <div class="card bg-dark text-white shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Son Ürün Stok</h5>
+                                <p class="card-text fs-4">@ViewBag.ls</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6">
+                        <div class="card bg-secondary text-black shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">İlk Ürünün Kategorisi</h5>
+                                <p class="card-text fs-4">@ViewBag.x</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-success text-black-50 shadow-sm h-100">
+                            <div class="card-body">
+                                <h5 class="card-title">Son Ürünün Kategorisi</h5>
+                                <p class="card-text fs-4">@ViewBag.y</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="mt-4 text-center">
+                    <a href="/Dashboard/Index/" class="btn btn-outline-info me-2">Ana Temaya Dön</a>
+                    <a href="/Dashboard/Statistics/" class="btn btn-outline-info">İstatistik Tema</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+

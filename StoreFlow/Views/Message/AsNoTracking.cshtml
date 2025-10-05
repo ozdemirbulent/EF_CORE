@@ -1,0 +1,56 @@
+﻿@model List<Message>
+@{
+    ViewData["Title"] = "AsNoTracking";
+    Layout = "~/Views/Layout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card shadow-lg border-0 rounded-3">
+            <div class="card-body">
+                <h3 class="card-title text-center mb-4">📩 Mesaj Durum Listesi</h3>
+
+
+
+                <div class="table-responsive">
+                    <table class="table table-hover align-middle">
+                        <thead class="table-dark">
+
+                            <tr>
+                                <th style="width:5%">#</th>
+                                <th style="width:45%">Gönderen</th>
+                                <th style="width:45%">Mesaj Başlığı</th>
+                                <th style="width:20%">Durum</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                /*AsNoTracking() Entity Framework’te verileri sadece okumak için getirir, nesneleri takip etmez.
+                                Bu sayede performans artar ve bellek kullanımı azalır.
+                                CRUD işlemi yapmayacağın durumlarda raporlama ve listeleme için idealdir.  */
+                                count++;
+                                <tr>
+                                    <td>@count</td>
+                                    <td>@item.SenderNameSurname</td>
+                                    <td>@item.MessageTittle</td>
+                                    <td>
+                                        @if (item.IsRead == true)
+                                        {
+                                            <span class="badge bg-success px-3 py-2">Okundu</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger px-3 py-2">Okunmadı</span>
+                                        }
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

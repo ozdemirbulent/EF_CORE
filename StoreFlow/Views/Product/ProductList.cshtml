@@ -1,0 +1,70 @@
+﻿@model List<Product>
+
+@{
+    ViewData["Title"] = "ProductList";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card shadow-sm border-0">
+            <div class="card-header bg-orange text-white text-md-center">
+                <h3 class="card-title mb-0 header">Ürün Listesi</h3>
+            </div>
+            <div class="card-body">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped align-middle">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>#</th>
+                                <th>Ürün Adı</th>
+                                <th>Ürün Fiyatı</th>
+                                <th>Kategori Adı</th>
+                                <th>Stok Sayısı</th>
+                                <th>Sil</th>
+                                <th>Güncelle</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <th>@item.ProductId</th>
+                                    <td>@item.ProductName</td>
+                                    <td>@item.ProductPrice.ToString()   Tl </td> 
+                                    <td>@item.category.CategoryName</td>
+                                    <td>@item.ProductStock</td>
+                                    <td>
+                                        <a href="/Product/DeleteProduct/@item.ProductId"
+                                           onclick="return confirm('Bu öğeyi silmek istediğinize emin misiniz?');"
+                                           class="btn btn-sm btn-danger">
+                                            Sil
+                                        </a>
+                                    </td>
+                                    <td>
+                                        <a href="/Product/UpdateProduct/@item.ProductId"
+                                           class="btn btn-sm btn-warning text-white">
+                                            Güncelle
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                    <a href="/Product/CreateProduct/" class="btn btn-success mt-3">
+                        <i class="bi bi-plus-circle"></i> Yeni Ürün Girişi
+                    </a>
+
+                    <style>
+                        .header {
+                            font-weight: bold;
+                            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                            font-size: 30px;
+                        }
+
+                    </style>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

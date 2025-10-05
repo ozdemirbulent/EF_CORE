@@ -1,0 +1,20 @@
+﻿@model Message
+
+@{
+    ViewData["Title"] = "Mesaj Detayı";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="card shadow-lg p-4">
+    <h3 class="text-primary fw-bold">Mesaj Detayı</h3>
+    <hr />
+    <p><strong>Gönderen:</strong> @Model.SenderNameSurname</p>
+    <p><strong>Konu:</strong> @Model.MessageTittle</p>
+    <p><strong>Tarih:</strong> @Model.Datetime.ToString("dd MMM yyyy HH:mm")</p>
+    <hr />
+    <p class="mt-3">@Model.MessageDetails</p>
+
+    <a href="/Message/MessageList/" class="btn btn-outline-secondary mt-3">
+        <i class="fas fa-arrow-left"></i> Listeye Dön
+    </a>
+</div>

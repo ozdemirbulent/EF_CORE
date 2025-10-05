@@ -1,0 +1,72 @@
+﻿@model List<Category>
+@{
+    ViewData["Title"] = "ReverseCategory";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<h3 class="mb-4 text-primary fw-bold">
+    <span>First metodu kullanımı → @ViewBag.b</span>
+</h3>
+<h3 class="mb-4 text-primary fw-bold">
+    <span>SingleOrDefault metodu kullanımı → @ViewBag.c</span>
+</h3>
+
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card shadow-lg border-0 rounded-3">
+
+            <div class="card-header bg-gradient bg-dark text-white d-flex justify-content-between align-items-center">
+                <h4 class="mb-0">📂 Tersten Kategori Listesi</h4>
+                <a href="/Category/CreateCategory/" class="btn btn-sm btn-light text-dark fw-bold">
+                    + Yeni Kategori
+                </a>
+            </div>
+
+            <div class="card-body p-3">
+                <div class="table-responsive">
+                    <table class="table table-hover table-striped align-middle text-center">
+                        <thead class="table-dark">
+                            <tr>
+                                <th style="width:10%">#</th>
+                                <th style="width:30%">Kategori Adı</th>
+                                <th style="width:20%">Durum</th>
+                                <th style="width:30%">İşlemler</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                <tr>
+                                    <td class="fw-bold">@item.CategoryId</td>
+                                    <td class="text-start">@item.CategoryName</td>
+                                    <td>
+                                        @if (item.CategoryStatus)
+                                        {
+                                            <span class="badge bg-success px-3 py-2">Aktif</span>
+                                        }
+                                        else
+                                        {
+                                            <span class="badge bg-danger px-3 py-2">Pasif</span>
+                                        }
+                                    </td>
+                                    <td>
+                                        <a href="/Category/UpdateCategory/@item.CategoryId"
+                                           class="btn btn-sm btn-outline-warning me-2">
+                                            ✏ Güncelle
+                                        </a>
+                                        <a href="/Category/DeleteCategory/@item.CategoryId"
+                                           onclick="return confirm('Bu öğeyi silmek istediğinize emin misiniz?');"
+                                           class="btn btn-sm btn-outline-danger">
+                                            🗑 Sil
+                                        </a>
+                                    </td>
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

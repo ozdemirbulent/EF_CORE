@@ -1,0 +1,36 @@
+﻿@model List<Customer>
+@{
+    ViewData["Title"] = "CustomerWithByQuaryble";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="container mt-4">
+    <div class="card shadow-lg border-0 rounded-3">
+        <div class="card-header bg-dark text-white text-center">
+            <h3 class="mb-0">Müşteri Listesi (İstanbul)</h3>
+        </div>
+        <div class="card-body p-0">
+            <table class="table table-hover table-striped mb-0 text-center align-middle">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Müşteri Adı</th>
+                        <th>Müşteri Soyadı</th>
+                        <th>Şehir</th>
+                        <th>Ülke</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.CustomerName</td>
+                            <td>@item.CustomerSurname</td>
+                            <td>@item.CustomerCity</td>
+                            <td>@item.CustomerDistrict</td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>

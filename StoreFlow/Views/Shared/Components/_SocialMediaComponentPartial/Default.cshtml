@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>.NET Instagram Card</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        .btn-instagram {
+            background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+        }
+
+            .btn-instagram:hover {
+                background: linear-gradient(45deg, #e8842b 0%, #d85a2e 25%, #c91d35 50%, #b81558 75%, #a5127a 100%);
+            }
+    </style>
+</head>
+<body class="bg-gray-100 p-8">
+    <div class="max-w-6xl mx-auto">
+        <div class="bg-white rounded-xl shadow-lg p-6">
+            <div class="flex flex-col md:flex-row justify-between items-center space-y-6 md:space-y-0">
+
+                <div class="flex items-center space-x-4 group cursor-pointer">
+                    <a href="https://www.instagram.com/" target="_blank" class="flex items-center space-x-4">
+                        <span class="w-14 h-14 btn-instagram text-white rounded-full flex items-center justify-center text-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                            <i class="fab fa-instagram"></i>
+                        </span>
+                        <div>
+                            <h5 class="font-semibold text-gray-800 mb-0">Instagram</h5>
+                            <p class="text-gray-600 text-sm mb-0">9000 takipçi</p>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex items-center space-x-4 group cursor-pointer">
+                    <a href="https://medium.com/" target="_blank" class="flex items-center space-x-4">
+                        <span class="w-14 h-14 bg-green-600 hover:bg-green-700 text-white rounded-full flex items-center justify-center text-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                            <i class="fab fa-medium-m"></i>
+                        </span>
+                        <div>
+                            <h5 class="font-semibold text-gray-800 mb-0">Medium</h5>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="flex items-center space-x-4 group cursor-pointer">
+                    <a href="https://www.linkedin.com/feed/" target="_blank" class="flex items-center space-x-4">
+                        <span class="w-14 h-14 bg-blue-700 hover:bg-blue-800 text-white rounded-full flex items-center justify-center text-xl transition-all duration-300 hover:scale-110 hover:shadow-lg">
+                            <i class="fab fa-linkedin-in"></i>
+                        </span>
+                        <div>
+                            <h5 class="font-semibold text-gray-800 mb-0">LinkedIn</h5>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>

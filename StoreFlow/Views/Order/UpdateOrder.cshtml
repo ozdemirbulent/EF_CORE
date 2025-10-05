@@ -1,0 +1,67 @@
+﻿@model Order
+
+@{
+    ViewData["Title"] = "UpdateOrder";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="row">
+    <div class="col-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h4 class="card-title">Sipariş Güncelleme Sayfası</h4>
+
+
+                <form class="forms-sample" method="post">
+                    <input type="hidden" asp-for="OrderId" />
+                    <div class="form-group">
+                        <label for="exampleInputName1">Ürün Seçiniz</label>
+                        <select asp-for="ProductId" asp-items="@ViewBag.products" class="form-control">
+
+                            <option value=""> -- Ürün Seçiniz --  </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Müşteri Seçiniz</label>
+                        <select asp-for="CustomerId" asp-items="@ViewBag.customers" class="form-control">
+
+                            <option value=""> -- Müşteri Seçiniz --  </option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Sipariş Adet</label>
+                        <input type="text" class="form-control" id="orderCount" asp-for="OrderCount" placeholder="Sipariş Adedini Giriniz.">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Birim Fiyat Giriniz</label>
+                        <input type="text" class="form-control" id="unitPrice" asp-for="UnitPrice" placeholder="Birim Fiyatı Giriniz.">
+                    </div>
+                    <div class="form-group">
+                        <label for="exampleInputName1">Toplam Fiyat Giriniz</label>
+                        <input type="number" class="form-control" id="totalPrice" asp-for="TotalPrice" placeholder="Toplam Fiyatı Giriniz." readonly>
+                    </div>
+                    <button type="submit" class="btn btn-primary mr-2">Siparişi Güncelle</button>
+                </form>
+                <script>
+                    const unitPrice = document.getElementById("unitPrice");
+                    const orderCount = document.getElementById("orderCount");
+                    const totalPrice = document.getElementById("totalPrice");
+
+                    function calculateTotal() {
+                        let price = parseFloat(unitPrice.value) || 0;
+                        let qty = parseInt(orderCount.value) || 0;
+                        totalPrice.value = (price * qty).toFixed(2);
+                    }
+
+                /   unitPrice.addEventListener("input", calculateTotal);
+                    orderCount.addEventListener("input", calculateTotal);
+                    
+                </script>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+
+

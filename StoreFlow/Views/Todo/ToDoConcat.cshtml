@@ -1,0 +1,60 @@
+﻿@model List<Todo>
+@{
+    ViewData["Title"] = "ToDoConcat";
+    Layout = "~/Views/Layout/Index.cshtml";
+    int count = 0;
+}
+
+<div class="row">
+    <div class="col-lg-12 grid-margin stretch-card">
+        <div class="card">
+            <div class="card-body">
+                <h3 class="card-title">Yapılacaklar Listesi</h3>
+                <div class="table-responsive">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th class="text-bg-dark text-center">#</th>
+                                <th>Açıklama</th>
+                                <th>Öncelik</th>
+                                <th>Durum</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            @foreach (var item in Model)
+                            {
+                                count++;
+                                <tr>
+                                    <td class="w-12 h-12 bg-blue-500 text-dark text-center rounded-full shadow-lg">
+                                        @count
+                                    </td>
+                                    <td>@item.Description</td>
+                                    @if (item.Priority == "Birincil")
+                                    {
+                                        <td><label class="badge badge-info badge-pill">@item.Priority</label></td>
+                                    }
+                                    else if (item.Priority == "İkincil")
+                                    {
+                                        <td><label class="badge badge-warning badge-pill">@item.Priority</label></td>
+                                    }
+                                    else
+                                    {
+                                        <td><label class="badge badge-dark badge-pill">@item.Priority</label></td>
+                                    }
+                                    @if (item.Status == true)
+                                    {
+                                        <td><label class="badge badge-success badge-pill">@item.Status</label></td>
+                                    }
+                                    else
+                                    {
+                                        <td><label class="badge badge-danger badge-pill">@item.Status</label></td>
+                                    }
+                                </tr>
+                            }
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
