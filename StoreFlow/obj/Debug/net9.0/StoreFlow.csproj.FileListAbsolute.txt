@@ -1017,3 +1017,4 @@ C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\tn6ija4tsx-r6q9hifmn6.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\m16lsboir1-3y8m7uxm6z.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\ak0d761n2j-f25z90kir4.gz
+C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\StoreFlow.sourcelink.json

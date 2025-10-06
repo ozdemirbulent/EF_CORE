@@ -9,56 +9,100 @@
         @await Component.InvokeAsync("_NavbarDashboardComponentPartial")
         <div class="container-fluid page-body-wrapper">
 
-            @await Component.InvokeAsync("_ThemeSettingsWrapperDashboardComponentPartial");
+            @await Component.InvokeAsync("_ThemeSettingsWrapperDashboardComponentPartial")
+            @await Component.InvokeAsync("_RightSidebarDashboardComponentPartial")
+            @await Component.InvokeAsync("_SidebarDashboardComponentPartial")
 
-            @await Component.InvokeAsync("_RightSidebarDashboardComponentPartial");
-
-            @await Component.InvokeAsync("_SidebarDashboardComponentPartial");
-
-            <div class="main-panel">
+            <div class="main-panel container-fluid">
                 <div class="content-wrapper">
+
+               
                     <div class="page-header">
-                        <h3 class="page-title">
-                            Dashboard 
-                        </h3>
+                        <div class="page-header-inner">
+                            <h3 class="page-title">Dashboard</h3>
+                        </div>
                     </div>
+
                     @await Component.InvokeAsync("_CardStatisticsDashboardComponentPartial")
-
                     @await Component.InvokeAsync("_ChartDashboardComponentPartial")
+
                     <div class="row">
-
                         @await Component.InvokeAsync("_SalesStatusDashboardComponentPartial")
-
                         @await Component.InvokeAsync("_ActivityDashboardComponentPartial")
-
                         @await Component.InvokeAsync("_DailySalesDashboardComponentPartial")
-
                     </div>
+
                     @await Component.InvokeAsync("_LastMessagesDashboardComponentPartial")
 
                     <div class="row">
                         @await Component.InvokeAsync("_SalesDataDashboardComponentPartial")
-
                     </div>
 
                     <div class="row">
-
                         @await Component.InvokeAsync("_ToDoDashboardComponentPartial")
-
                         @await Component.InvokeAsync("_Last5ProductsDashboardComponentPartial")
                     </div>
+
                     @await Component.InvokeAsync("_SocialMediaComponentPartial")
                 </div>
+
                 @await Component.InvokeAsync("_FooterDashboardComponentPartial")
             </div>
         </div>
     </div>
+
+
+    <style>
+
+        .page-header {
+            width: 100%;
+            padding: 18px 12px;
+            box-sizing: border-box;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 18px;
+        }
+
+
+        .page-header-inner {
+            width: 100%;
+            max-width: 920px;
+            padding: 14px 22px;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(44,62,80,0.06);
+            border: 1px solid rgba(44,62,80,0.04);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+
+        .page-title {
+            margin: 0;
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: 700;
+            font-size: 28px;
+            color: #203647;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding-bottom: 6px;
+            border-bottom: 2px solid transparent;
+            transition: transform 0.32s ease, color 0.32s ease, letter-spacing 0.32s ease, border-color 0.32s ease;
+            cursor: default;
+            display: inline-block;
+        }
+
+            .page-title:hover {
+                color: #2d9cdb;
+                transform: translateY(-2px) scale(1.03);
+                letter-spacing: 2px;
+                border-bottom-color: #2d9cdb;
+                cursor: pointer;
+            }
+
+    </style>
+
     @await Component.InvokeAsync("_ScriptsDashboardComponentPartial")
 </body>
 </html>
-
-
-
-
-
-
