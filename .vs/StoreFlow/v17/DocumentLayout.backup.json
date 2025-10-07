@@ -3,28 +3,80 @@
   "WorkspaceRootPath": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\wwwroot\\melody-premium-bootstrap-admin-dashboard-template\\pages\\icons\\font-awesome.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\wwwroot\\melody-premium-bootstrap-admin-dashboard-template\\pages\\icons\\font-awesome.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\order\\createorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\order\\createorder.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\shared\\components\\_navbardashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\shared\\components\\_navbardashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\controllers\\messagecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\controllers\\layoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\controllers\\layoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\product\\updateproduct.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\customer\\customerlistorderbydescending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\customer\\customerlistorderbydescending.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\order\\orderlistsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\order\\orderlistsearch.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\category\\categorylist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\todo\\prependmethod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\todo\\prependmethod.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\controllers\\todocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\shared\\components\\_activitydashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\shared\\components\\_activitydashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\todo\\createtodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\todo\\createtodo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\shared\\components\\_cardstatisticsdashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\shared\\components\\_cardstatisticsdashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|c:\\users\\excalibur\\onedrive\\masa\u00FCst\u00FC\\c#\\project\\storeflow\\storeflow\\views\\shared\\components\\_dailysalesdashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{9840AAF7-375C-4C79-8A1D-BBF7E2871F2A}|StoreFlow\\StoreFlow.csproj|solutionrelative:storeflow\\views\\shared\\components\\_dailysalesdashboardcomponentpartial\\default.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,79 +102,237 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "CreateToDo.cshtml",
-              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Todo\\CreateToDo.cshtml",
-              "RelativeDocumentMoniker": "StoreFlow\\Views\\Todo\\CreateToDo.cshtml",
-              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Todo\\CreateToDo.cshtml",
-              "RelativeToolTip": "StoreFlow\\Views\\Todo\\CreateToDo.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T06:56:03.345Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Shared\\Components\\_ActivityDashboardComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "StoreFlow\\Views\\Shared\\Components\\_ActivityDashboardComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Shared\\Components\\_ActivityDashboardComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "StoreFlow\\Views\\Shared\\Components\\_ActivityDashboardComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T05:54:09.451Z",
+              "DocumentIndex": 0,
+              "Title": "font-awesome.html",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\wwwroot\\Melody-Premium-Bootstrap-Admin-Dashboard-Template\\pages\\icons\\font-awesome.html",
+              "RelativeDocumentMoniker": "StoreFlow\\wwwroot\\Melody-Premium-Bootstrap-Admin-Dashboard-Template\\pages\\icons\\font-awesome.html",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\wwwroot\\Melody-Premium-Bootstrap-Admin-Dashboard-Template\\pages\\icons\\font-awesome.html",
+              "RelativeToolTip": "StoreFlow\\wwwroot\\Melody-Premium-Bootstrap-Admin-Dashboard-Template\\pages\\icons\\font-awesome.html",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
+              "WhenOpened": "2025-10-07T12:57:00.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "StoreFlow\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "StoreFlow\\Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T12:54:04.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "StoreFlow\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\appsettings.Development.json",
+              "RelativeToolTip": "StoreFlow\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T12:53:54.357Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Program.cs",
+              "RelativeDocumentMoniker": "StoreFlow\\Program.cs",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Program.cs",
+              "RelativeToolTip": "StoreFlow\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:53:08.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\appsettings.json",
+              "RelativeDocumentMoniker": "StoreFlow\\appsettings.json",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\appsettings.json",
+              "RelativeToolTip": "StoreFlow\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-10-07T12:53:07.473Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Default.cshtml",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Shared\\Components\\_NavbarDashboardComponentPartial\\Default.cshtml",
+              "RelativeDocumentMoniker": "StoreFlow\\Views\\Shared\\Components\\_NavbarDashboardComponentPartial\\Default.cshtml",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Shared\\Components\\_NavbarDashboardComponentPartial\\Default.cshtml",
+              "RelativeToolTip": "StoreFlow\\Views\\Shared\\Components\\_NavbarDashboardComponentPartial\\Default.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABoAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T12:46:46.713Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateOrder.cshtml",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Order\\CreateOrder.cshtml",
+              "RelativeDocumentMoniker": "StoreFlow\\Views\\Order\\CreateOrder.cshtml",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Order\\CreateOrder.cshtml",
+              "RelativeToolTip": "StoreFlow\\Views\\Order\\CreateOrder.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAA0AAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T12:42:18.436Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MessageController.cs",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\MessageController.cs",
+              "RelativeDocumentMoniker": "StoreFlow\\Controllers\\MessageController.cs",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\MessageController.cs",
+              "RelativeToolTip": "StoreFlow\\Controllers\\MessageController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:42:07Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LayoutController.cs",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\LayoutController.cs",
+              "RelativeDocumentMoniker": "StoreFlow\\Controllers\\LayoutController.cs",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\LayoutController.cs",
+              "RelativeToolTip": "StoreFlow\\Controllers\\LayoutController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:42:05.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "StoreFlow\\Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "StoreFlow\\Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:42:04.385Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "StoreFlow\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "StoreFlow\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAkwEgAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:36:06.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "CustomerListOrderByDescending.cshtml",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Customer\\CustomerListOrderByDescending.cshtml",
+              "RelativeDocumentMoniker": "StoreFlow\\Views\\Customer\\CustomerListOrderByDescending.cshtml",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Customer\\CustomerListOrderByDescending.cshtml",
+              "RelativeToolTip": "StoreFlow\\Views\\Customer\\CustomerListOrderByDescending.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T12:39:51.798Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UpdateProduct.cshtml",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeDocumentMoniker": "StoreFlow\\Views\\Product\\UpdateProduct.cshtml",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Product\\UpdateProduct.cshtml",
+              "RelativeToolTip": "StoreFlow\\Views\\Product\\UpdateProduct.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAAMAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T12:37:29.853Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "StoreFlow\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "StoreFlow\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAswE8AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:37:22.477Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderListSearch.cshtml",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Order\\OrderListSearch.cshtml",
+              "RelativeDocumentMoniker": "StoreFlow\\Views\\Order\\OrderListSearch.cshtml",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Order\\OrderListSearch.cshtml",
+              "RelativeToolTip": "StoreFlow\\Views\\Order\\OrderListSearch.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEEAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T12:36:19.953Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "StoreFlow\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "StoreFlow\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAABgAAAAAAAAAAAAYwB4AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-07T12:36:02.596Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PrependMethod.cshtml",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Todo\\PrependMethod.cshtml",
+              "RelativeDocumentMoniker": "StoreFlow\\Views\\Todo\\PrependMethod.cshtml",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Todo\\PrependMethod.cshtml",
+              "RelativeToolTip": "StoreFlow\\Views\\Todo\\PrependMethod.cshtml",
+              "ViewState": "AgIAABIAAAAAAAAAAAAAAIIAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-07T11:24:49.753Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "TodoController.cs",
               "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\TodoController.cs",
               "RelativeDocumentMoniker": "StoreFlow\\Controllers\\TodoController.cs",
               "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Controllers\\TodoController.cs",
               "RelativeToolTip": "StoreFlow\\Controllers\\TodoController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAgAAAAAAAAAA==",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAkwDYAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-05T05:52:39.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-07T10:35:20.924Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "RelativeDocumentMoniker": "StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "RelativeToolTip": "StoreFlow\\Views\\Dashboard\\Index.cshtml",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAABMAAAAQAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "CategoryList.cshtml",
+              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Category\\CategoryList.cshtml",
+              "RelativeDocumentMoniker": "StoreFlow\\Views\\Category\\CategoryList.cshtml",
+              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Category\\CategoryList.cshtml",
+              "RelativeToolTip": "StoreFlow\\Views\\Category\\CategoryList.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAADEAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-04T16:20:15.646Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Shared\\Components\\_DailySalesDashboardComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "StoreFlow\\Views\\Shared\\Components\\_DailySalesDashboardComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Shared\\Components\\_DailySalesDashboardComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "StoreFlow\\Views\\Shared\\Components\\_DailySalesDashboardComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAmwCkAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T05:41:36.871Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Default.cshtml",
-              "DocumentMoniker": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Shared\\Components\\_CardStatisticsDashboardComponentPartial\\Default.cshtml",
-              "RelativeDocumentMoniker": "StoreFlow\\Views\\Shared\\Components\\_CardStatisticsDashboardComponentPartial\\Default.cshtml",
-              "ToolTip": "C:\\Users\\EXCALIBUR\\OneDrive\\Masa\u00FCst\u00FC\\c#\\Project\\StoreFlow\\StoreFlow\\Views\\Shared\\Components\\_CardStatisticsDashboardComponentPartial\\Default.cshtml",
-              "RelativeToolTip": "StoreFlow\\Views\\Shared\\Components\\_CardStatisticsDashboardComponentPartial\\Default.cshtml",
-              "ViewState": "AgIAABUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-10-05T05:41:25.196Z"
+              "WhenOpened": "2025-10-07T10:32:06.398Z"
             }
           ]
         }

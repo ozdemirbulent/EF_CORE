@@ -420,7 +420,6 @@ C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\c9gifdgu2b-zx6jz7knb7.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\ny26ufqmuj-36m7wukccr.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\f7zu7ww980-ur5ltfl0og.gz
-C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\vspeqwyfjf-pu9s063tej.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\i0ayxaxwp1-7kg2txw12t.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\uk34r8go8o-fg3ylgnma3.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\xsv8hleulq-xztzkxelt3.gz
@@ -1018,3 +1017,4 @@ C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\m16lsboir1-3y8m7uxm6z.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\ak0d761n2j-f25z90kir4.gz
 C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\StoreFlow.sourcelink.json
+C:\Users\EXCALIBUR\OneDrive\Masaüstü\c#\Project\StoreFlow\StoreFlow\obj\Debug\net9.0\compressed\vspeqwyfjf-bgeay91dfl.gz
